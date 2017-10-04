@@ -24,7 +24,7 @@ const (
 	forbiddenChannelResponse string = "Sorry @%s, but I'm not allowed to run this command here :zipper_mouth_face:"
 	forbiddenCommandResponse string = "Sorry @%s, but I cannot run this command."
 	forbiddenFlagResponse    string = "Sorry @%s, but I'm not allowed to run one of your flags."
-	okResponse               string = "Oh @%s my favorite Tlacuache!\n@%s, here is what you want, remember I love you:\n ```\n%s\n``` "
+	okResponse               string = "Oh @%s my favorite Tlacuache\n@%s there you go:\n ```\n%s\n``` "
 )
 
 var (
