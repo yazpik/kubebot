@@ -1,6 +1,6 @@
 FROM golang:1.8
 
-RUN wget http://storage.googleapis.com/kubernetes-release/release/v1.2.4/bin/linux/amd64/kubectl -O /usr/bin/kubectl && \
+RUN wget http://storage.googleapis.com/kubernetes-release/release/v1.8.0/bin/linux/amd64/kubectl -O /usr/bin/kubectl && \
     chmod +x /usr/bin/kubectl
 
 RUN mkdir -p /go/src/app
